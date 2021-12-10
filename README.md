@@ -2,4 +2,4 @@
 
 
 
-Kindly, hop into "OOPs-Assignment/src/main/scala" folder to find the solution for the assigned tasks ("OOPS1" & "OOPS2")
+Kindly, hop into "OOPs-Assignment/src/main/scala" folder to find the solution for the assigned tasks ("OOPS 1" & "OOPS 2")
