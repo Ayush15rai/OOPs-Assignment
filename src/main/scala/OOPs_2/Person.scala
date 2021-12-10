@@ -26,3 +26,4 @@ object Person extends App {
   var secondPerson = new Person("Amenadiel", 28)
   firstPerson compare secondPerson
 }
+
