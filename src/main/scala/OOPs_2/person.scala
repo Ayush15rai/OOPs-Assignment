@@ -1,8 +1,8 @@
 package OOPs_2
 
-class Person(var name: String, var age: Int) extends Ordered[Person]{
+class person(var name: String, var age: Int) extends Ordered[person]{
 
-  override def compare(that: Person): Int = {
+  override def compare(that: person): Int = {
     this.name compare that.name match {
       case 0 => if (this.age.equals(that.age))
         println("True\nName and age both are same")
@@ -21,9 +21,9 @@ class Person(var name: String, var age: Int) extends Ordered[Person]{
 
 }
 
-object Person extends App {
-  var firstPerson = new Person("Lucifer", 24)
-  var secondPerson = new Person("Amenadiel", 28)
+object person extends App {
+  var firstPerson = new person("Lucifer", 24)
+  var secondPerson = new person("Amenadiel", 28)
   firstPerson compare secondPerson
 }
 
