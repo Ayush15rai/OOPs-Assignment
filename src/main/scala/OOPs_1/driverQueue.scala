@@ -2,7 +2,7 @@ package OOPs_1
 
 import scala.collection.mutable.ListBuffer
 
-object Driver_Queue extends App {
+object driverQueue extends App {
 
   val list = ListBuffer(8, 9, 10, 2, 7, 3)
   println("Originally the Queue is: ")
