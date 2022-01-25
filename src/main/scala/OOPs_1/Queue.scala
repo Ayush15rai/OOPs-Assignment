@@ -3,7 +3,7 @@ package OOPs_1
 import scala.collection.mutable.ListBuffer
 import scala.io.StdIn.readInt
 
-trait queue {
+trait Queue {
 
   def dequeue( list: ListBuffer[Int]): Unit = {
     list.remove(0)
